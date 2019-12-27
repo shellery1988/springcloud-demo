@@ -1,0 +1,19 @@
+server:
+  port: 8999
+
+spring:
+  application:
+    name: springcloud-demo
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+#apollo:
+#  bootstrap:
+#    enabled: true
+#  meta: http://apollo.muguangli.cn:8080
+#### apollo server的应用id
+#app:
+#    id: springcloud-demo
+
