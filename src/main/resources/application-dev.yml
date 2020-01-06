@@ -9,11 +9,14 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
 
-#apollo:
-#  bootstrap:
-#    enabled: true
-#  meta: http://apollo.muguangli.cn:8080
-#### apollo server的应用id
-#app:
-#    id: springcloud-demo
+### apollo server的应用id
+app:
+  id: springcloud-demo
 
+apollo:
+  bootstrap:
+    enabled: true
+  #meta: http://apollo.muguangli.cn:8080
+  meta: http://localhost:8080
+
+env: DEV

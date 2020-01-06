@@ -1,6 +1,5 @@
 package com.shellery.springclouddemo.dto;
 
-import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
@@ -11,7 +10,6 @@ import org.springframework.context.annotation.Configuration;
  * Description:
  */
 @Configuration
-@EnableApolloConfig
 @Data
 public class ConfigDemo {
 
